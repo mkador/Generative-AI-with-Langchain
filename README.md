@@ -26,7 +26,32 @@ This repository contains:
 
 ---
 
+## 🛠 Technologies Used
+- LangChain — LLM orchestration
+- Google Gemini API — AI model for parsing
+- Streamlit — Web app interface
+- [PyPDFLoader, Docx2txtLoader, TextLoader] — Resume document loaders
+- Python 3.9+
+
+## 📂 Project Structure
+.
+├── 1_working_with_different_LLMs.ipynb   # LLM experiments notebook
+├── 2_Resume_Parser_app.py                # Streamlit resume parser app
+├── requirements.txt                       # Python dependencies
+└── README.md                              # Project documentation
+
+
+## 🔑 Environment Variables
+- Create a `.env` file in the root directory and add your Google API Key:
+- GOOGLE_API_KEY=your_google_api_key_here
+
+
 ## 📦 Installation
+
+pip install langchain_openai langchain-google-genai python-dotenv streamlit
+pip install -U langchain-community
+pip install pypdf
+
 
 ```bash
 # Clone the repository
