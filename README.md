@@ -35,10 +35,10 @@ This repository contains:
 
 ## 📂 Project Structure
 .
-├── 1_working_with_different_LLMs.ipynb   # LLM experiments notebook
-├── 2_Resume_Parser_app.py                # Streamlit resume parser app
-├── requirements.txt                       # Python dependencies
-└── README.md                              # Project documentation
+- ├── 1_working_with_different_LLMs.ipynb   # LLM experiments notebook
+- ├── 2_Resume_Parser_app.py                # Streamlit resume parser app
+- ├── requirements.txt                       # Python dependencies
+- └── README.md                              # Project documentation
 
 
 ## 🔑 Environment Variables
